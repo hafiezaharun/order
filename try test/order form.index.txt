@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>Customers Order Form</title>
+</head>
+<body>
+<table width="600" align="center">
+<tr>
+<td>
+<h2 align="center"><font face="times new roman">Customers Order Form</font></h2>
+
+<img src="delivery.jpg">
+
+<h3><font face="times new roman">Name</font></h3>
+<input type= "text" size= "100">
+
+<h3><font face="times new roman">Phone Number</font></h3>
+<input type= "text" size= "100">
+
+<h3><font face="times new roman">Adress</font></h3>
+<input type= "text" size= "100">
+
+<h3><font face="times new roman">Menu:</font></h3>
+Drink Water (cold/hot)
+<select name="Drink Water (cold/hot)">
+<option value="Orange">Orange</option>
+<option value="Sirap">Sirap</option>
+<option value="Milo">Milo</option>
+<option value="Tea O">Tea O</option>
+<option value="Coffee">Coffee</option>
+</select>
+<br>
+<br>
+Lunch/Dinner Menu
+<select name="Lunch/Dinner Menu">
+<option value="Beef Soup">Beef Soup</option>
+<option value="Chicken Chop Fried Rice">Chicken Chop Fried Rice</option>
+<option value="Chicken Chop">Chicken Chop</option>
+<option value="Chicken Burger">Chicken Burger</option>
+<option value="Fry Turmeric Meat">Fry Turmeric Meat</option>
+<option value="Rice Fried Meat">Rice Fried Meat</option>
+<option value="Chicken Fried Rice">Chicken Fried Rice</option>
+<option value="Nasi Goreng Kampung">Nasi Goreng Kampung</option>
+<option value="Pataya Fried Rice">Pataya Fried Rice</option>
+<option value="Fried Rice Chilli">Fried Rice Chilli</option>
+<option value="USA Fried Rice">USA Fried Rice</option>
+<option value="Bachelor Fried Rice">Bachelor Fried Rice</option>
+<option value="Fried Noodles">Fried Noodles</option>
+<option value="Fried Vermicelli">Fried Vermicelli</option>
+<option value="Beef Burger">Beef Burger</option>
+<option value="Burger Zinger">Burger Zinger</option>
+<option value="Mini John Chicken Bread">Mini John Chicken Bread</option>
+<option value="Mini Bread John Meat">Mini Bread John Meat</option>
+<option value="Fried Flat Noodles">Fried Flat Noodles</option>
+</select>
+<br>
+<br>
+Dessert
+<select name="Dessert">
+<option value="Kuih Lapis">Kuih Lapis</option>
+<option value="Tepung Talam Suji">Tepung Talam Suji</option>
+<option value="Kek Batik">Tepung Talam Suji</option>
+<option value="Kuih Koci">Kuih Koci</option>
+<option value="Bomboloni">Bomboloni</option>
+</select>
+<br>
+<br>
+
+
+
+<br>
+<br>
+<br>
+<input type="submit" value="Submit">
+
+</form>
+
+</table>
+</body>
+</html>
